@@ -1,0 +1,65 @@
+# ----------------------------
+# Python cache & compiled files
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ----------------------------
+# Jupyter Notebook checkpoints
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Virtual environment / Env folders
+# ----------------------------
+.env/
+venv/
+env/
+ENV/
+
+# ----------------------------
+# Dataset / Data files
+# ----------------------------
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# ----------------------------
+# Output / Plots / Logs
+# ----------------------------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+*.log
+
+# ----------------------------
+# OS & system files
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# IDE / Editor files
+# ----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------------
+# Backup / temporary files
+# ----------------------------
+*.bak
+*.tmp
+*.swp
