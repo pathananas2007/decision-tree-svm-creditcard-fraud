@@ -1,45 +1,34 @@
 # 💳 decision_tree_svm_creditcard_fraud
 
 ## 📖 Overview
-This project compares **Decision Tree** and **Support Vector Machine (SVM)** models for detecting credit card fraud using the publicly available credit card dataset. It includes data preprocessing, model training, evaluation, and visualizations of model performance.
+Compare **Decision Tree** and **SVM** models for detecting credit card fraud. Includes data preprocessing, model training, evaluation, and visualizations.
 
 ## 📊 Dataset
-The dataset contains credit card transactions labeled as fraudulent or non-fraudulent. The features are numerical values resulting from a PCA transformation to protect sensitive information.
+Credit card transactions labeled as fraudulent or non-fraudulent. Features are anonymized via PCA.  
 
 **Source:** [Credit Card Fraud Detection Dataset](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%203/data/creditcard.csv)
 
-## 🎓 Course & Dataset Credit
-This project is inspired by the **IBM Machine Learning Professional Certificate** course on Coursera:  
-[IBM Developer Skills Network - Credit Card Fraud Detection](https://www.coursera.org/learn/machine-learning-with-python)  
+## 🎓 Credit
+Inspired by **IBM Machine Learning Professional Certificate** on Coursera:  
+[IBM Developer Skills Network](https://www.coursera.org/learn/machine-learning-with-python)
 
-The dataset is provided as part of the course materials.
-
-## 🛠 Steps Performed
-1. **Data Loading:** Read the dataset into a pandas DataFrame.
-2. **Class Distribution Visualization:** Pie chart to show the imbalance in the target variable.
-3. **Feature Correlation:** Bar chart showing correlation of features with the target.
-4. **Data Preprocessing:** Standardization and normalization of features.
-5. **Train-Test Split:** Split data into training (70%) and testing (30%) sets.
-6. **Sample Weighting:** Balanced weights for training to handle class imbalance.
-7. **Model Training:**
-   - Decision Tree Classifier (max depth=4)
-   - Linear SVM (with balanced class weight)
-8. **Evaluation:**
-   - ROC-AUC score
-   - ROC curve visualization
-   - Precision-Recall curve visualization
+## 🛠 Steps
+1. Load dataset & visualize class distribution.
+2. Feature correlation analysis.
+3. Standardize & normalize features.
+4. Train-test split & sample weighting.
+5. Train models: Decision Tree (max_depth=4) & Linear SVM.
+6. Evaluate with ROC-AUC, ROC curve, and Precision-Recall curve.
 
 ## 📈 Results
-| Model           | ROC-AUC |
-|-----------------|---------|
-| Decision Tree    | 0.939   |
-| SVM              | 0.986   |
-
-**Visualizations:**  
-- ROC Curve Comparison  
-- Precision-Recall Curve Comparison  
+| Model        | ROC-AUC |
+|--------------|---------|
+| Decision Tree | 0.939  |
+| SVM           | 0.986  |
 
 ## 🚀 How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/decision_tree_svm_creditcard_fraud.git
+```bash
+git clone https://github.com/<your-username>/decision_tree_svm_creditcard_fraud.git
+cd decision_tree_svm_creditcard_fraud
+pip install -r requirements.txt
+# Open notebook or run script
