@@ -13,7 +13,7 @@ Inspired by **IBM Machine Learning Professional Certificate** on Coursera:
 [IBM Developer Skills Network](https://www.coursera.org/learn/machine-learning-with-python)
 
 ## 🛠 Steps
-1. Load dataset & visualize class distribution.
+1. Load dataset & visualize class distribution...........nnn.
 2. Feature correlation analysis.
 3. Standardize & normalize features.
 4. Train-test split & sample weighting.
